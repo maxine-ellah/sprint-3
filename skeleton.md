@@ -1,0 +1,3 @@
+What happens to the layout when you resize the screen to less than 550 px. How do you think that works?
+
+The webpage's layout rearrages itself so that all the elements are in the middle of the page. This is because Skeleton media queries are mobile first, so any screen smaller than 550px makes the page adopt the layout created for mobile phones. Which is described in the first block of the CSS code, before all the other media queries. 
